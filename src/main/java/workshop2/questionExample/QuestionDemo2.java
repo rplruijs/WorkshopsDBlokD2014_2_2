@@ -9,10 +9,9 @@ public class QuestionDemo2
 {
    public static void main(String[] args)
    {
-
       Question question = new Question();
       question.setText("What is the square root of 225");
-      question.setAnswer("" + Math.sqrt(225));
+      question.setAnswer("" + 1);
 
       ChoiceQuestion first = new ChoiceQuestion();
       first.setText("What was the original name of the Java language?");
@@ -28,6 +27,7 @@ public class QuestionDemo2
       second.addChoice("Denmark", false);
       second.addChoice("United States", false);
 
+      presentQuestion(question);
       presentQuestion(first);
       presentQuestion(second);
    }
@@ -36,7 +36,7 @@ public class QuestionDemo2
       Presents a question to the user and checks the response.
       @param q the question
    */
-   public static void presentQuestion(ChoiceQuestion q)
+   public static void presentQuestion(Question q)
    {
       q.display();
       System.out.print("Your answer: ");

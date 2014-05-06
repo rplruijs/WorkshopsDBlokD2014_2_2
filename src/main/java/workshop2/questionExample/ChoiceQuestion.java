@@ -27,12 +27,15 @@ public class ChoiceQuestion extends Question
       choices.add(choice);
       if (correct) 
       {
-         // Convert choices.size() to string
-         String choiceString = "" + choices.size();
-         setAnswer(choiceString);
+        // Convert choices.size() to string
+        String choiceString = "" + choices.size();
+        setAnswer(choiceString);
       }
    }
-   
+
+
+
+   @Override
    public void display()
    {
       // Display the question text
