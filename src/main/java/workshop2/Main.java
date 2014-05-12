@@ -18,7 +18,7 @@ public class Main {
 //        TentamenResultaat t2 = new TentamenResultaat(c2, s2);
 //        t1 = t2;
 //        s2.setNaam("Guzie");
-//        c2 = 5.6;workshop2/Main.java:18
+//        c2 = 5.6;workshop2/MainInterface.java:18
 //        System.out.println(t1);
 //        System.out.println(t2);
 

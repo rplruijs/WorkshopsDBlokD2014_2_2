@@ -23,4 +23,11 @@ public class JavaProgrammeur extends Persoon implements JavaExpert{
     public void programmeerCodeSchrijven() {
         System.out.println("Klop klop klop klop klop");
     }
+
+
+    public void test(){
+        System.out.println("Test!");
+    }
+
+
 }

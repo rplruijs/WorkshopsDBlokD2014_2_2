@@ -27,6 +27,8 @@ public class Student extends Persoon {
     public void stelVraag(String vraag){
         System.out.println(getName() + " vraagt aan expert : "  + vraag );
         System.out.println(begeleider.vragen(vraag));
+
+
     }
 
 }

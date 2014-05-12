@@ -32,11 +32,17 @@ public class MainFrame extends JFrame implements ActionListener{
 
         //instantiate button
         button = new JButton("Start");
-       //add Listener to button
+        //add Listener to button
         button.addActionListener(new ClickListener());
         button.addActionListener(new InnerClickListener());
         button.addActionListener(this);
 
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Anoniem!!");
+            }
+        });
 
         //add button to panel
         panel.add(button);
@@ -48,7 +54,7 @@ public class MainFrame extends JFrame implements ActionListener{
         setVisible(true);
     }
 
-
+    @Override
     public void actionPerformed(ActionEvent event){
         System.out.println("I was clicked. from inside");
     }

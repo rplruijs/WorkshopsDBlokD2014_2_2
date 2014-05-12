@@ -12,23 +12,26 @@ import workshop4.interfaceExample.Student;
  * Time: 11:13 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Main {
+public class MainInterface {
 
     public static void main(String[] args){
 
         JavaExpert expert1 = new JavaDocent("Remco", true);
         JavaExpert expert2 = new JavaProgrammeur("Alan");
 
+        expert2.programmeerCodeSchrijven();
+        expert2.programmeerCodeSchrijven();
+        expert2.programmeerCodeSchrijven();
+        expert2.programmeerCodeSchrijven();
+
 
         Student student = new Student("Mees", expert2);
 
         student.stelVraag("Wat is een interface?");
 
+
         student.setBegeleider(expert1);
-        expert2.programmeerCodeSchrijven();
-        expert2.programmeerCodeSchrijven();
-        expert2.programmeerCodeSchrijven();
-        expert2.programmeerCodeSchrijven();
+
 
         student.stelVraag("Wat is een interface?");
 

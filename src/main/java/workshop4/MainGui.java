@@ -15,16 +15,12 @@ import java.awt.*;
 public class MainGui {
 
     public static void main(String[] args){
-        JFrame frame= new JFrame();
-        frame.setSize(new Dimension(300, 400));
-        frame.getContentPane().setBackground(Color.RED);
-        frame.setTitle("Empty frame");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
 
 
 
 
-      //  MainFrame frame2 = new MainFrame();
+
+
+        MainFrame frame2 = new MainFrame();
     }
 }
