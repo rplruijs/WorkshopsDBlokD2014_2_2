@@ -1,6 +1,7 @@
 package workshop3.iteratie1;
 
 import java.awt.*;
+import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.
