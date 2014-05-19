@@ -38,9 +38,9 @@ public class Main {
         for(String naam : namen){
 
             if(naam.equals("Romeo")){
-                namen.add("Julia");
+            //    namen.add("Julia");
             }
-            //System.out.println(naam);
+            System.out.println(naam);
         }
     }
 }
