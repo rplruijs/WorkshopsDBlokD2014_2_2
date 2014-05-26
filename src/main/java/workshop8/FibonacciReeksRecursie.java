@@ -13,7 +13,7 @@ public class FibonacciReeksRecursie {
     
     
     public static void main(String[] args){
-        System.out.println(fibNonRec(89));
+        System.out.println(fibNonRec(8));
         //System.out.println(fibRec(45));
     }
 
