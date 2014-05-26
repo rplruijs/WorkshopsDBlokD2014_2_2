@@ -16,13 +16,11 @@ public class FibonacciReeksRecursie {
         System.out.println(fibNonRec(89));
         //System.out.println(fibRec(45));
     }
-    
+
+
+    //TO DO Implement
     private static int fibRec(int getal){
-        if(getal <= 2){ //Basisgeval(len)  
-            return 1;
-        }else{ //Recursie.
-            return fibRec(getal-1) + fibRec(getal-2);
-        }
+        return 0;
     }
     
     public static long fibNonRec(int n)
