@@ -11,7 +11,7 @@ public class BinaryTree {
     private Node root;
     
     public BinaryTree(Object rootData, BinaryTree left, BinaryTree right){
-        root.setData(rootData);
+        root = new Node(rootData);
         root.setLeft(left.getRoot());
         root.setRight(right.getRoot());
     }
