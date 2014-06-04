@@ -1,6 +1,6 @@
 package workshop9.sortComparableInterface;
 
-import workshop6._.PriorityQueueExample.DblokkerPQ.DBlokker;
+import workshop6.PriorityQueueExample.DblokkerPQ.DBlokker;
 
 import java.util.ArrayList;
 import java.util.Collections;
