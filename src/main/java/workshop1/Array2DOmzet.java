@@ -32,8 +32,24 @@ public class Array2DOmzet {
 
     //TODO implementeren
     private static int meesteOmzetInKwartaal(double[][] input){
+        final int JAREN = input.length;
+        final int KWARTALEN = input[0].length;
 
-        return 0;
+        double maxOmzetPerKwartaal = Integer.MIN_VALUE;
+        int indexKwartaal = 0;
+
+        for(int j = 0; j<KWARTALEN;j++){
+            double omzetKwartaal = 0;
+            for(int i=0; i<JAREN; i++){
+                omzetKwartaal+=input[i][j];
+            }
+            if(omzetKwartaal > maxOmzetPerKwartaal){
+                maxOmzetPerKwartaal = omzetKwartaal;
+                indexKwartaal = j;
+            }
+        }
+
+        return indexKwartaal + 1;
     }
 
 
