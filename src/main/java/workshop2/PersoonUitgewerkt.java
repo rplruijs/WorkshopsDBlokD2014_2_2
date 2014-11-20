@@ -23,7 +23,7 @@ public class PersoonUitgewerkt {
     public PersoonUitgewerkt(String naam, String adres, double salaris) {
         this.naam = naam;
         this.adres = adres;
-        setSalaris(salaris);
+
     }
 
 
@@ -39,8 +39,7 @@ public class PersoonUitgewerkt {
 
     //TODO implementeren
     public void verhoogSalaris(double percentage){
-        double bedrag = salaris * (percentage / 100);
-        setSalaris(salaris + bedrag);
+
     }
 
     public String getAdres() {
