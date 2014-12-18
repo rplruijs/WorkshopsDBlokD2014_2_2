@@ -31,6 +31,12 @@ public class BinaryTree {
     public int getHeight(){
         return height(root);
     }
+
+
+    //TODO extra huiswerk voor diegene die tijd over hebben.
+    public boolean isBalanced(){
+        return false;
+    }
     
     
     private int height(Node n){
